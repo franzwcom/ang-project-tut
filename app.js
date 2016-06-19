@@ -6,6 +6,7 @@ app.get('/', function (req, res) {
   res.sendfile('./index.html'); // this is temporal
 });
 
-app.listen(3000, function () {
-  console.log('Listening on port 3000!');
+var port = 3000;
+app.listen(port, function () {
+  console.log('Listening on http://localhost:3000/'+ port);
 });
