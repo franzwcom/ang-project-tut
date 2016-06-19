@@ -2,15 +2,15 @@
   "name": "ang-project-tut",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "soom"
+    "url": "git@github.com:franzwcom/ang-project-tut.git"
   },
-  "author": "franz g",
+  "author": "Franz G",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.5",
